@@ -1,5 +1,7 @@
 Key Vault -> Event Grid System Topics -> Subscription Namespace -> Namespace Topic <- Pull deliver to Function App (node) -> Key Vault 
 
+![Alt text](KeyVault - EventGrid - FunctionApp-Pull.drawio.png.png)
+
 Enable namespaces
 az provider register --namespace Microsoft.EventGrid
 az provider show --namespace Microsoft.EventGrid --query "registrationState"

@@ -1,6 +1,5 @@
 Key Vault -> Event Grid System Topics -> Subscription Namespace -> Namespace Topic <- Pull deliver to Function App (node) -> Key Vault 
 
-![Alt text](KeyVault - EventGrid - FunctionApp-Pull.drawio.png)
 ![Alt text](image.png)
 
 Enable namespaces

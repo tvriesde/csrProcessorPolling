@@ -20,9 +20,11 @@ resource namespace 'Microsoft.EventGrid/namespaces@2023-12-15-preview' = {
   }
   properties: {
     isZoneRedundant: true
-    publicNetworkAccess: 'Disabled'
+    publicNetworkAccess: 'Enabled'
   }
 }
+
+//note publicNetworkAccess is Enabled, if Disabled, then Event Grid Subsription won't be able to connect to the topic
 
 resource topic 'Microsoft.EventGrid/namespaces/topics@2023-12-15-preview' = {
   name: namespaceTopicName

@@ -1,6 +1,6 @@
 Key Vault -> Event Grid System Topics -> Subscription Namespace -> Namespace Topic <- Pull deliver to Function App (node) -> Key Vault 
 
-![Alt text](image.png)
+![Alt text](diagram.png)
 
 Enable namespaces
 az provider register --namespace Microsoft.EventGrid
